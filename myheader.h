@@ -9,7 +9,6 @@ struct ethheader {
     u_char  ether_shost[6]; 
     u_short ether_type;     
 };
-\
 struct ipheader {
     unsigned char      iph_ihl:4,  
                         iph_ver:4; 
